@@ -21,11 +21,9 @@ h2 { text-align:right;
 #panel { display: inline-block;
         width: 40%;
         border: 1px solid #000;
-        box-decoration-break: clone;
         text-align: center;
         margin-right: 5%;
         padding: 20px;
         border: solid 1px #707070;
         box-shadow: 0 0 5px 1px #969696;
-        float: right;
-        display: none; }
+        float: right; }
