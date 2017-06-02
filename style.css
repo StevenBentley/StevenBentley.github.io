@@ -1,0 +1,100 @@
+section:nth-child(even) {
+  background: -webkit-linear-gradient(90deg,#949494 10%,#efefef 90%); background: linear-gradient(90deg,#949494 10%,#efefef 90%);
+}
+
+section:nth-child(odd) {
+  background: -webkit-linear-gradient(90deg,#949494 10%,#efefef 90%);         background: linear-gradient(90deg,#949494 10%,#efefef 90%);
+}
+
+.featurette-divider {
+  margin: 0%;
+}
+
+h2, h3, h4 {
+  text-align: center;
+}
+
+#about { 
+   background: -webkit-linear-gradient(90deg,#383836 10%,#4a4a4a 90%); background: linear-gradient(90deg,#383836 10%,#4a4a4a 90%);
+  padding-top: 75px;
+}
+
+ul li {
+  font-size: 20px;
+}
+
+.img-align {
+  height: 35px;
+  width: 35px;
+}
+
+#logo {
+  height: 60px;
+  width: 400px;
+}
+
+#contact {
+   background: -webkit-linear-gradient(90deg,#383836 10%,#4a4a4a 90%); background: linear-gradient(90deg,#383836 10%,#4a4a4a 90%);
+  color: white;
+}
+
+body {
+  background-color: silver !important;
+}
+
+#bottom {
+  background: #292b2c;
+  color: white;
+}
+
+.heading {
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    padding-top: 30px;
+}
+
+.fa {
+  font-size: 36px !important;
+  margin-right: 35px;
+  margin-left: 5px;
+  color: white;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer hr {
+  padding: 1px;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 500px) {
+    #logo {
+        height: 40px;
+        width: 225px;
+    }
+}
+
+.fa-github-square:hover {
+  color: black;
+}
+
+.fa-linkedin-square:hover {
+  color: #0084b4;
+}
+
+.fa-twitter-square:hover {
+  color: #0077B5;
+}
+
+ul.traits li {
+    background: -webkit-linear-gradient(90deg,#383836 10%,#4a4a4a 90%); background: linear-gradient(90deg,#383836 10%,#4a4a4a 90%);
+   color: white;
+}
